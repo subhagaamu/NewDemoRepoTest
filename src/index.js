@@ -1,12 +1,24 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import EntryComponent from "./EntryComponent";
 import './index.css';
+
+
+
+
+
+import './App.css';
+import {BrowserRouter, Route} from 'react-router-dom';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <h3 className="App">F & A GTTS Entry Application</h3>
+    <BrowserRouter>
+    <Route exact path='/' component={App}></Route>
+    <Route path='/EntryPage' component={EntryComponent}></Route>
+    </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')
 );
