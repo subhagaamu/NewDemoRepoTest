@@ -2,11 +2,6 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import EntryComponent from "./EntryComponent";
 import './index.css';
-
-
-
-
-
 import './App.css';
 import {BrowserRouter, Route} from 'react-router-dom';
 import App from './App';

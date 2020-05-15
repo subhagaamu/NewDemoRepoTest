@@ -15,7 +15,7 @@ export default class CarouselComponent extends React.Component {
     handleCarousel() {
         this.setState({ coroselview: false })
 
-        document.getElementById("root").style.backgroundColor="lightGreen"
+        // document.getElementById("root").style.backgroundColor="lightGreen"
     }
     render() {
         return (
